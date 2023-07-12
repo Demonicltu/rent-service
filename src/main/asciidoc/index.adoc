@@ -1,0 +1,51 @@
+= Rent application REST API documentation
+:toc: left
+:toclevels: 4
+:sectids:
+:sectnums:
+:sectanchors:
+:sectlinks:
+:revnumber: {version}
+:revdate: {timestamp}
+
+== Endpoints
+
+=== Product
+
+==== Get products
+===== Request
+====== Example Request
+include::{snippets}/getProducts/http-request.adoc[]
+===== Response
+====== Response Fields
+include::{snippets}/getProducts/response-fields.adoc[]
+====== Example Response
+include::{snippets}/getProducts/http-response.adoc[]
+
+==== Get Product Details
+===== Request
+====== Path Parameters
+include::{snippets}/getProductDetails/path-parameters.adoc[]
+====== Example Request
+include::{snippets}/getProductDetails/http-request.adoc[]
+===== Response
+====== Response Fields
+include::{snippets}/getProductDetails/response-fields.adoc[]
+====== Example Response
+include::{snippets}/getProductDetails/http-response.adoc[]
+
+=== Product Price
+
+==== Get Product Final Price
+===== Request
+====== Path Parameters
+include::{snippets}/getProductPrice/path-parameters.adoc[]
+====== Request Fields
+include::{snippets}/getProductPrice/request-fields.adoc[]
+====== Example Request
+include::{snippets}/getProductPrice/http-request.adoc[]
+===== Response
+====== Response Fields
+include::{snippets}/getProductPrice/response-fields.adoc[]
+====== Example Response
+include::{snippets}/getProductPrice/http-response.adoc[]
